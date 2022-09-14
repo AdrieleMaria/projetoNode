@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'Roboto',sans-serif;
+    color: #002207;
+    background-color: #dbffde;
+    line-height: 1.5;
+    font-size: 0.875rem;    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+h1{
+    width: 70%;
+    background-color: #04AA6D;
+    text-align: center;
+    
+}
+
+main{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.texto-cadastro{
+    width: 100%;
+    text-align: left;        
+}
+
+.tracinho{
+    padding: 15px 0px;
+    width: 100%;
+    border-bottom: solid #002207 2px;
+}
+
+.cadastro-usuario{
+    display: flex;
+    justify-content:space-around ;
+    width: 100%;
+    padding: 15px 0px;
+}
+
+input[type="text"] {
+    padding: 5px 60px 5px 5px;
+    display: inline-block;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="email"] {
+    padding: 5px 60px 5px 5px;
+    display: inline-block;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+#button{    
+    background-color:#04AA6D;
+    padding: 5px 10px;
+    display: inline-block;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 1px 3px #00000033; 
+}
+
+.container-tabela{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.texto-lista{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    padding: 15px 0px;
+}
+
+.lista-usuario {
+    width: 100%;       
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+
+.lista-usuario td, .lista-usuario th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+
+.lista-usuario tr { 
+    width: 100%;
+}
+
+.lista-usuario tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+.lista-usuario tr:hover {
+    background-color: #ddd;
+}
+
+.lista-usuario th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #04AA6D;
+    color: white;
+}

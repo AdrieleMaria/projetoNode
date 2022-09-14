@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="style.css">
+
+    
+
+    <title>Usuários</title>
+</head>
+<body>
+
+    <header>
+       <h1>FRONT API</h1>
+    </header>
+
+    <main>
+        <div class="texto-cadastro">
+            <h3>FORMULÁRIO DE CADASTRO DE USUÁRIO</h3>
+            <h5>Para inserir um usuário na lista, preencha os dados abaixo:</h5>
+        </div>
+        <div class="tracinho"></div>
+        <form class="cadastro-usuario">
+            <input type="text" name="nome" id="nome" placeholder="Nome">
+            <input type="email" name="email" id="email" placeholder="E-mail">
+            <button id="button">Cadastrar</button>
+        </form>
+        
+        <div class="texto-lista">
+            <h3>LISTA DE USUÁRIOS CADASTRADOS</h3>
+        </div>    
+        
+        <table class="lista-usuario">
+            <thead>
+                <tr>
+                    <th>#ID</th>
+                    <th>Nome</th>
+                    <th>E-mail</th>
+                    <th>Editar</th>
+                    <th>Excluir</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!--Aqui será a tabela dinâmica-->
+            </tbody>    
+        </table>       
+    </main>
+
+    <script src="index.js"></script>   
+</body>
+</html>
